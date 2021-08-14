@@ -27,3 +27,9 @@
 snippet ctx "declare a context" i
 ctx context.Context
 endsnippet
+
+snippet forn "for num without index" i
+for _, n := range ${1:nunms} {
+	${0:${VISUAL}}
+}
+endsnippet
